@@ -25,6 +25,18 @@ section {
   padding-bottom: 20px;
 }
 
+.label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.demo-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .track {
   position: relative;
   width: 100%;
@@ -74,21 +86,11 @@ section {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(calc(90vw - 40px));
+    transform: translateX(calc(70vw));
   }
   100% {
     transform: translateX(0);
   }
 }
 
-.label {
-  font-size: 20px;
-  font-weight: 500;
-  color: #4b5563;
-  margin-bottom: 10px;
-}
 
-.demo-section {
-  display: flex;
-  flex-direction: column;
-}
