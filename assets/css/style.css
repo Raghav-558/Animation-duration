@@ -28,8 +28,8 @@ section {
 .label {
   font-size: 20px;
   font-weight: 500;
-  color: #4b5563;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .demo-section {
@@ -50,7 +50,7 @@ section {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: #be6700;
+  background: #a59e35;
   border-radius: 50%;
   top: 5px;
   left: 5px;
@@ -86,7 +86,7 @@ section {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(calc(70vw));
+    transform: translateX(1100px);
   }
   100% {
     transform: translateX(0);
